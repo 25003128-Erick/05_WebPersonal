@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="autor" content="Erick Alejandro Navarro Gutiérrez">
+    <meta name="descripcion" content="webPersonal">
+    <meta name="keywords" content="curriculum, vitae, cv">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="shortcut icon" href="./Favicon/favicon.ico">
+    <title>Portafolio personal</title>
+</head>
+<body>
+    <header class="contenido">
+        <section id="logo">
+            <h1>ERICK NAVARRO</h1>
+            <span>Desarrollo de Software Multiplataforma</span>
+        </section>
+        <nav>
+            <a href="#perfil">Sobre mí</a>
+            <a href="#academico">Trayectoria</a>
+            <a href="#multimedia">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+<section id="perfil" class="contenido">
+    <h1>Perfil personal</h1>
+    <figure id="fotografia">
+        <img src="imagenes/WhatsApp Image 2026-09-25 at 8.32.06 PM.jpeg" alt="Fotografia">
+        <figcaption>Hola, soy Erick Alejandro Navarro Gutiérrez. Me apasiona el mundo de la programación, 
+            con un enfoque particular en el desarrollo de sitios web y aplicaciones para dispositivos Android. 
+            Disfruto diseñar soluciones tecnológicas funcionales, bien estructuradas e intuitivas para el usuario, 
+            combinando lógica de programación con una maquetación clara y eficiente.
+        </figcaption>
+    </figure>
+</section>
+<section id="academico" class="contenido">
+    <h1>Formación académica y habilidades</h1>
+    <article class="tarjeta-info">
+        <div>
+            <span>FORMACIÓN ACADÉMICA</span>
+            <p>
+                <strong>Ingeniería en Tecnologías de la Información e Innovación</strong><br>
+                    Especialización T.S.U. en Desarrollo de Software Multiplataforma<br>
+                    Universidad Tecnológica de León (UTL)
+            </p>
+        </div>
+        <div>
+            <span>CONOCIMIENTOS</span>
+            <p>
+                Desarrollo Web (HTML5, CSS3), Programación Orientada a Objetos en Java, Gestión 
+                de Bases de Datos con MySQL, Modelado de Sistemas UML y Arquitectura de Software 
+                Modelo-Vista-Controlador (MVC).
+            </p>
+        </div>
+    </article>
+</section>
+<section id="multimedia" class="contenido">
+        <h1>Proyectos Destacados</h1>
+        
+        <article class="tarjeta-info" style="margin-bottom: 40px;">
+            <div>
+                <span>PROYECTO 1: CAFÉ LOOP</span>
+                <p>
+                    Desarrollo de prototipo interactivo en Figma para el sistema de una cafetería. El proyecto incluyó el diseño de experiencia de usuario (UX/UI), mapa de navegación, diseño de módulos y diccionarios de datos estructurados.
+                </p>
+            </div>
+            <div>
+                <span>PROYECTO 2: GREEN HORIZON</span>
+                <p>
+                    Aplicación diseñada para la compra y venta de artículos escolares y tecnológicos entre estudiantes universitarios (equipos de cómputo, libros, uniformes, mochilas y útiles). Inicialmente enfocada en la comunidad universitaria local con visión de expansión hacia un mercado regional.
+                </p>
+            </div>
+        </article>
+
+        <h1>Galería Multimedia</h1>
+        <div class="contenedor-multimedia">
+            <article class="bloque-media">
+                <h2>Demostración del Proyecto</h2>
+                <video controls width="100%">
+                    <source src="video/Grabación de pantalla desde 2026-09-25 21-00-56.webm" type="video/webm">
+                </video>
+            </article>
+            <article class="bloque-media">
+                <h2>Presentación de Audio</h2>
+                <img src="imagenes/clickerhappy-headphones-2954343_1920.jpg" alt="Portada de audio" class="imagen-audio">
+                <audio controls>
+                    <source src="audio/Audio.wav" type="audio/wav">
+                </audio>
+            </article>
+        </div>
+    </section>
+<section id="contacto" class="contenido">
+        <h1>Contacto</h1>
+        
+        <div class="contenedor-contacto">
+            <form action="#" method="post" id="formulario-contacto">
+                <label for="nombre">Nombre completo:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje o consulta..." required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+
+            <article id="redes-sociales">
+                <h2>Redes Sociales y Enlaces</h2>
+                <p>Contacto directo y portafolio de código:</p>
+                <ul>
+                    <li><a href="https://github.com" target="_blank"> 💻 Repositorio GitHub</a></li>
+                    <li><a href="mailto:25003128@utleon.edu.mx"> 📩 Correo Académico</a></li>
+                </ul>
+            </article>
+        </div>
+    </section>
+
+<footer>
+        <p>&copy; 2026 Erick Alejandro Navarro Gutiérrez - Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>

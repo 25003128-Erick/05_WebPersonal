@@ -1,0 +1,300 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+    font-family: sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* CABECERA Y NAVEGACIÓN */
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../imagenes/wyxina-after-the-rain-7960545_1920.jpg) no-repeat center center;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido {
+    min-width: 320px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 87vh;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: #ffffff;
+    margin-top: 50px;
+    text-shadow: 0 0 10px #000000;
+    letter-spacing: 2px;
+}
+
+header span {
+    font-size: 1.5rem;
+    color: #cccccc;
+    text-shadow: 0 0 5px #000000;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav {
+    background-color: rgba(20, 20, 20, 0.9);
+    height: 13vh;
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    width: 25%;
+    font-size: 1.2rem;
+    color: #aaaaaa;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1pt;
+    border-right: 0.5px solid #333333;
+    line-height: 13vh;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* SECCIÓN PERFIL */
+#perfil {
+    padding: 70px 20px;
+}
+
+#perfil h1, #academico h1, #multimedia h1, #contacto h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 10px;
+}
+
+#fotografia {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#fotografia img {
+    width: 40%;
+    min-width: 280px;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+}
+
+#fotografia figcaption {
+    width: 50%;
+    min-width: 280px;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: #cccccc;
+}
+
+#fotografia figcaption::first-letter {
+    font-size: 3.5rem;
+    float: left;
+    margin-right: 10px;
+    line-height: 1;
+    color: #ffffff;
+}
+
+/* SECCIÓN TRAYECTORIA ACADÉMICA Y PROYECTOS */
+#academico-laboral {
+    padding: 70px 20px;
+    background-color: #1a1a1a;
+}
+
+.tarjeta-info {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tarjeta-info div {
+    background-color: #242424;
+    padding: 25px;
+    border-left: 4px solid #ffffff;
+    border-radius: 4px;
+}
+
+.tarjeta-info span {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.tarjeta-info p {
+    color: #bbbbbb;
+    line-height: 1.6rem;
+}
+
+/* SECCIÓN MULTIMEDIA */
+#multimedia {
+    padding: 70px 20px;
+}
+
+.contenedor-multimedia {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.bloque-media {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    min-width: 300px;
+}
+
+.imagen-audio {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.bloque-media audio {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 30px;
+    outline: none;
+}
+
+.bloque-media h2 {
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    color: #dddddd;
+}
+
+/* SECCIÓN CONTACTO Y FORMULARIO */
+#contacto {
+    padding: 70px 20px;
+    background-color: #1a1a1a;
+}
+
+.contenedor-contacto {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+#formulario-contacto {
+    width: 55%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#formulario-contacto label {
+    font-weight: bold;
+    color: #cccccc;
+}
+
+#formulario-contacto input, #formulario-contacto textarea {
+    width: 100%;
+    padding: 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #444444;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+#formulario-contacto button {
+    padding: 12px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#formulario-contacto button:hover {
+    background-color: #cccccc;
+}
+
+#redes-sociales {
+    width: 35%;
+    min-width: 250px;
+}
+
+#redes-sociales h2 {
+    margin-bottom: 15px;
+}
+
+#redes-sociales ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+#redes-sociales li {
+    margin-bottom: 12px;
+}
+
+#redes-sociales a {
+    color: #aaaaaa;
+    font-size: 1.1rem;
+}
+
+#redes-sociales a:hover {
+    color: #ffffff;
+}
+
+/* PIE DE PÁGINA */
+footer {
+    background-color: #0d0d0d;
+    text-align: center;
+    padding: 20px;
+    color: #777777;
+    font-size: 0.9rem;
+    border-top: 1px solid #222222;
+}
