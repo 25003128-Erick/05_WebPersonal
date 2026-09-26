@@ -16,7 +16,6 @@ body {
     color: #e0e0e0;
 }
 
-/* CABECERA Y NAVEGACIÓN */
 header {
     background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../imagenes/wyxina-after-the-rain-7960545_1920.jpg) no-repeat center center;
     height: 100vh;
@@ -84,7 +83,6 @@ nav a:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* SECCIÓN PERFIL */
 #perfil {
     padding: 70px 20px;
 }
@@ -132,7 +130,6 @@ nav a:hover {
     color: #ffffff;
 }
 
-/* SECCIÓN TRAYECTORIA ACADÉMICA Y PROYECTOS */
 #academico-laboral {
     padding: 70px 20px;
     background-color: #1a1a1a;
@@ -166,7 +163,6 @@ nav a:hover {
     line-height: 1.6rem;
 }
 
-/* SECCIÓN MULTIMEDIA */
 #multimedia {
     padding: 70px 20px;
 }
@@ -209,7 +205,6 @@ nav a:hover {
     color: #dddddd;
 }
 
-/* SECCIÓN CONTACTO Y FORMULARIO */
 #contacto {
     padding: 70px 20px;
     background-color: #1a1a1a;
